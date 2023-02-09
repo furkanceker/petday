@@ -71,8 +71,8 @@
                 <!-- Text-Logo-Markup -->
                 <!--<h2 class="nav__logo-text"><a href="#">Gority</a></h2>-->
                 <!-- Image-Logo-Markup -->
-                <a href="index.html" class="nav__logo-image logo__light"><img src="images/logo-light.png" alt="Gority"></a>
-                <a href="index.html" class="nav__logo-image logo__dark"><img src="images/logo-dark.png" alt="Gority"></a>
+                <a href="index.php" class="nav__logo-image logo__light"><img src="images/logo-light.png" alt="Gority"></a>
+                <a href="index.php" class="nav__logo-image logo__dark"><img src="images/logo-dark.png" alt="Gority"></a>
             </div>
             <!--nav__logo-End-->
             <div class="nav__toggle" id="nav-toggle">
@@ -88,35 +88,8 @@
                         <li><a href="index.php">Ana Sayfa</a></li>
                         <li><a href="hakkimizda.php">Hakkımızda</a></li>
                         <li><a href="hizmetler.php">Hizmetler</a></li>
-                        <li><a href="services.html">Services</a>
-                            <ul class="sub-menu">
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="single-service.html">Service Details</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="posts.html">Pages</a>
-                            <ul class="sub-menu">
-                                <li><a href="team.html">Team</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="team.html">Team</a></li>
-                                        <li><a href="single-team.html">Team Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="product.html">Products</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="product.html">Products</a></li>
-                                        <li><a href="single-product.html">Product Details</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="posts.html">Posts</a>
-                            <ul class="sub-menu">
-                                <li><a href="posts.html">Posts</a></li>
-                                <li><a href="single-post.html">Post Details</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="galeri.php">Galeri</a></li>
+                        <li><a href="blog.php">Blog</a></li>
                         <li><a href="iletisim.php">İletişim</a></li>
                     </ul>
                 </nav>

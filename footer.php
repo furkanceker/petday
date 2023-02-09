@@ -12,7 +12,7 @@
                     <div class="row">
                         <div class="col-lg-4 pr-lg-5">
                             <div class="footer__widget anim_top">
-                                <h4 class="widget__title">About Us</h4>
+                                <h4 class="widget__title">Hakkımızda</h4>
                                 <div class="desc mb-4">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, Lorem ipsum dolor sit amet,</p>
                                 </div>
@@ -20,31 +20,31 @@
                                     <a href="#"><i class="ri-facebook-fill"></i></a>
                                     <a href="#"><i class="ri-twitter-fill"></i></a>
                                     <a href="#"><i class="ri-instagram-fill"></i></a>
-                                    <a href="#"><i class="ri-linkedin-fill"></i></a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-sm-6 col-lg-2">
                             <div class="footer__widget anim_top">
-                                <h4 class="widget__title">Explore</h4>
+                                <h4 class="widget__title">Hızlı Menü</h4>
                                 <ul class="nav-link">
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Testimonial</a></li>
-                                    <li><a href="#">Expert Team</a></li>
-                                    <li><a href="#">Posts</a></li>
+                                    <li><a href="index.php">Ana Sayfa</a></li>
+                                    <li><a href="hakkimizda.php">Hakkımızda</a></li>
+                                    <li><a href="hizmetler.php">Hizmetler</a></li>
+                                    <li><a href="galeri.php">Galeri</a></li>
+                                    <li><a href="blog.php">Blog</a></li>
+                                    <li><a href="iletisim.php">iletişim</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-sm-6 col-lg-2">
                             <div class="footer__widget anim_top">
-                                <h4 class="widget__title">Support</h4>
+                                <h4 class="widget__title">Hizmetler</h4>
                                 <ul class="nav-link">
-                                    <li><a href="#">Pet Shower</a></li>
-                                    <li><a href="#">Health checkup</a></li>
-                                    <li><a href="#">Pet Grooming</a></li>
-                                    <li><a href="#">Spa and Grooming</a></li>
-                                    <li><a href="#">Brush &amp; Blow Dry</a></li>
+                                    <li><a href="#">Hizmet Adı</a></li>
+                                    <li><a href="#">Hizmet Adı</a></li>
+                                    <li><a href="#">Hizmet Adı</a></li>
+                                    <li><a href="#">Hizmet Adı</a></li>
+                                    <li><a href="#">Hizmet Adı</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -81,7 +81,6 @@
     <script src="js/appear.js"></script>
     <script src="js/ajaxchimp.js"></script>
     <script src="js/animatenumber-min.js"></script>
-    <script src="js/contact-form.js"></script>
     <script src="js/imagesloaded-min.js"></script>
     <script src="js/isotope-pkgd-min.js"></script>
     <script src="js/lity-min.js"></script>
@@ -90,7 +89,4 @@
     <!--=======  ACTIVE JS =======-->
     <script src="js/main.js"></script>
 </body>
-
-
-<!-- Mirrored from html.devignedge.com/pettu/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 22 Jan 2023 20:48:06 GMT -->
 </html>
