@@ -7,8 +7,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="section__heading mb-0">
-                            <h2 class="section__heading-title anim_top">Our Services</h2>
-                            <h5 class="section__heading-sup-title anim_top"><a href="#">Home</a> <span>/</span> <span class="current">Our Services</span></h5>
+                            <h2 class="section__heading-title anim_top">Hizmetler</h2>
+                            <h5 class="section__heading-sup-title anim_top"><a href="index.php">Ana Sayfa</a> <span>/</span> <span class="current">Hizmetler</span></h5>
                         </div>
                     </div>
                 </div>
@@ -32,94 +32,9 @@
                                     <use xlink:href="#svg__element-4" />
                                 </svg>
                             </div>
-                            <h4 class="service__box-title"><a href="single-service.html">Dog boarding</a></h4>
+                            <h4 class="service__box-title"><a href="hizmet-detay.php">Hizmet Adı</a></h4>
                             <div class="service__box-desc">
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
-                            </div>
-                            <div class="service__box-bg">
-                                <i class="icon-dog-line"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service__box anim_top">
-                            <div class="service__box-icon">
-                                <i class="icon-service-2"></i>
-                                <svg class="svg_element">
-                                    <use xlink:href="#svg__element-4" />
-                                </svg>
-                            </div>
-                            <h4 class="service__box-title"><a href="single-service.html">Cat boarding</a></h4>
-                            <div class="service__box-desc">
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
-                            </div>
-                            <div class="service__box-bg">
-                                <i class="icon-dog-line"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service__box anim_top">
-                            <div class="service__box-icon">
-                                <i class="icon-service-3"></i>
-                                <svg class="svg_element">
-                                    <use xlink:href="#svg__element-4" />
-                                </svg>
-                            </div>
-                            <h4 class="service__box-title"><a href="single-service.html">Healthy meals</a></h4>
-                            <div class="service__box-desc">
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
-                            </div>
-                            <div class="service__box-bg">
-                                <i class="icon-dog-line"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service__box anim_top">
-                            <div class="service__box-icon">
-                                <i class="icon-location"></i>
-                                <svg class="svg_element">
-                                    <use xlink:href="#svg__element-4" />
-                                </svg>
-                            </div>
-                            <h4 class="service__box-title"><a href="single-service.html">Dog Walking</a></h4>
-                            <div class="service__box-desc">
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
-                            </div>
-                            <div class="service__box-bg">
-                                <i class="icon-dog-line"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service__box anim_top">
-                            <div class="service__box-icon">
-                                <i class="icon-dog11"></i>
-                                <svg class="svg_element">
-                                    <use xlink:href="#svg__element-4" />
-                                </svg>
-                            </div>
-                            <h4 class="service__box-title"><a href="single-service.html">Pet Sitting</a></h4>
-                            <div class="service__box-desc">
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
-                            </div>
-                            <div class="service__box-bg">
-                                <i class="icon-dog-line"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="service__box anim_top">
-                            <div class="service__box-icon">
-                                <i class="icon-truck"></i>
-                                <svg class="svg_element">
-                                    <use xlink:href="#svg__element-4" />
-                                </svg>
-                            </div>
-                            <h4 class="service__box-title"><a href="single-service.html">Transport Services</a></h4>
-                            <div class="service__box-desc">
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
+                                <p>Kısa Açıklama</p>
                             </div>
                             <div class="service__box-bg">
                                 <i class="icon-dog-line"></i>

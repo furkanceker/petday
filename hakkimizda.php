@@ -7,8 +7,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="section__heading mb-0">
-                            <h2 class="section__heading-title anim_top">About Us</h2>
-                            <h5 class="section__heading-sup-title anim_top"><a href="#">Home</a> <span>/</span> <span class="current">About Us</span></h5>
+                            <h2 class="section__heading-title anim_top">Hakkımızda</h2>
+                            <h5 class="section__heading-sup-title anim_top"><a href="index.php">Ana Sayfa</a> <span>/</span> <span class="current">Hakkımızda</span></h5>
                         </div>
                     </div>
                 </div>
@@ -204,8 +204,8 @@
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="section__heading pb-5 mb-n3  text-center text-lg-left">
-                            <h5 class="section__heading-sup-title anim_top">Testimonial</h5>
-                            <h2 class="section__heading-title anim_top">Client happy With Us</h2>
+                            <h5 class="section__heading-sup-title anim_top">Yorumlar</h5>
+                            <h2 class="section__heading-title anim_top">Mutlu Müşteri Yorumları</h2>
                             <div class="section__heading-desc anim_top">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
                             </div>
@@ -248,36 +248,6 @@
                                         <h6 class="testimonial__box-position">CEO of TTM</h6>
                                     </div>
                                 </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial__box">
-                                        <div class="testimonial__box-image">
-                                            <img src="images/testi-3.jpg" alt="">
-                                        </div>
-                                        <div class="testimonial__box-quote">
-                                            <i class="icon-quote"></i>
-                                        </div>
-                                        <div class="testimonial__box-desc">
-                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Excepteur sint occaecat cupidatat non proident, sunt in culpa </p>
-                                        </div>
-                                        <h5 class="testimonial__box-name">Beatrice R Clark</h5>
-                                        <h6 class="testimonial__box-position">CEO of KKR</h6>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="testimonial__box">
-                                        <div class="testimonial__box-image">
-                                            <img src="images/testi-4.jpg" alt="">
-                                        </div>
-                                        <div class="testimonial__box-quote">
-                                            <i class="icon-quote"></i>
-                                        </div>
-                                        <div class="testimonial__box-desc">
-                                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Excepteur sint occaecat cupidatat non proident, sunt in culpa </p>
-                                        </div>
-                                        <h5 class="testimonial__box-name">Elvia E Arruda</h5>
-                                        <h6 class="testimonial__box-position">CEO of BBC</h6>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -304,12 +274,12 @@
                 <div class="row flex-row-reverse">
                     <div class="col-lg-5 offset-lg-1 mb-5 mb-lg-0">
                         <div class="section__heading pb-5 mb-n3 ">
-                            <h5 class="section__heading-sup-title anim_top">Asked Questions</h5>
+                            <h5 class="section__heading-sup-title anim_top">Sıkça Sorulanlar</h5>
                             <h2 class="section__heading-title anim_top">We are always Ready for your Any question</h2>
                             <div class="section__heading-desc anim_top">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
                             </div>
-                            <a href="contact.html" class="primary__button">Contact Us</a>
+                            <a href="iletisim.php" class="primary__button">İletişim</a>
                         </div>
                     </div>
                     <div class="col-lg-6">

@@ -7,8 +7,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="section__heading mb-0">
-                            <h2 class="section__heading-title anim_top">Gallery</h2>
-                            <h5 class="section__heading-sup-title anim_top"><a href="#">Home</a> <span>/</span> <span class="current">Gallery</span></h5>
+                            <h2 class="section__heading-title anim_top">Galeri</h2>
+                            <h5 class="section__heading-sup-title anim_top"><a href="index.php">Ana Sayfa</a> <span>/</span> <span class="current">Galeri</span></h5>
                         </div>
                     </div>
                 </div>
