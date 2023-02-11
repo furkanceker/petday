@@ -32,7 +32,7 @@
                                     <li><a href="hizmetler.php">Hizmetler</a></li>
                                     <li><a href="galeri.php">Galeri</a></li>
                                     <li><a href="blog.php">Blog</a></li>
-                                    <li><a href="iletisim.php">iletişim</a></li>
+                                    <li><a href="iletisim.php">İletişim</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -40,11 +40,23 @@
                             <div class="footer__widget anim_top">
                                 <h4 class="widget__title">Hizmetler</h4>
                                 <ul class="nav-link">
-                                    <li><a href="#">Hizmet Adı</a></li>
-                                    <li><a href="#">Hizmet Adı</a></li>
-                                    <li><a href="#">Hizmet Adı</a></li>
-                                    <li><a href="#">Hizmet Adı</a></li>
-                                    <li><a href="#">Hizmet Adı</a></li>
+                                    <li><a href="hizmet-detay.php">Hizmet Adı</a></li>
+                                    <li><a href="hizmet-detay.php">Hizmet Adı</a></li>
+                                    <li><a href="hizmet-detay.php">Hizmet Adı</a></li>
+                                    <li><a href="hizmet-detay.php">Hizmet Adı</a></li>
+                                    <li><a href="hizmet-detay.php">Hizmet Adı</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-2">
+                            <div class="footer__widget anim_top">
+                                <h4 class="widget__title">Bloglar</h4>
+                                <ul class="nav-link">
+                                    <li><a href="blog-detay.php">Blog Adı</a></li>
+                                    <li><a href="blog-detay.php">Blog Adı</a></li>
+                                    <li><a href="blog-detay.php">Blog Adı</a></li>
+                                    <li><a href="blog-detay.php">Blog Adı</a></li>
+                                    <li><a href="blog-detay.php">Blog Adı</a></li>
                                 </ul>
                             </div>
                         </div>

@@ -45,7 +45,7 @@
                                 <div class="desc">
                                     <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit</p>
                                 </div>
-                                <a href="#" class="load_more">Load More</a>
+                                <a href="blog-detay.php" class="load_more">Devamını Oku</a>
                             </div>
                         </div>
                     </div>

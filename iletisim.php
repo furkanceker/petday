@@ -1,4 +1,5 @@
 <?php require_once 'header.php'; ?>
+<?php require_once 'admin/baglan.php'; ?>
 <!-- Full-Wrapper-Start -->
 <main class="full-wrapper" id="home-section">
         <!--Header-Area-Start-->
@@ -67,6 +68,55 @@
                         </div>
                     </div>
                 </div>
+                <?php
+                            if(isset($_POST['gonder'])){
+                                $isim = $_POST['isim'];
+                                $email = $_POST['email'];
+                                $konu = $_POST['konu'];
+                                $mesaj = $_POST['mesaj'];
+                                if(!$isim || !$email || !$konu || !$mesaj){
+                                    echo '<div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                    <strong>Boş Alanları Doldurun!</strong>
+                                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    </div>';
+                                }else{
+                                    if(!filter_var($email,FILTER_VALIDATE_EMAIL)){
+                                        echo '<div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                        <strong>Geçersiz E-Posta!</strong>
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        </div>';
+                                    }else{
+                                        $ekle = $db->prepare("INSERT INTO iletisim SET 
+                                        isim=:i,
+                                        mail=:e,
+                                        konu=:k,
+                                        mesaj=:m
+                                        
+                                        ");
+                                        $ekle->execute([':i'=>$isim,':e'=>$email,':k'=>$konu,':m'=>$mesaj]);
+                                        if($ekle->rowCount()){
+                                            echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+                                            <strong>Mesaj Gönderildi!</strong>
+                                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>';
+                                        }else{
+                                            echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                            <strong>Hata Oluştu!</strong>
+                                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>';
+                                        }
+                                    }
+                                }
+                            }
+                        ?>
                 <div class="row contact__form-row no-gutters anim_top">
                     <div class="col-lg-6">
                         <div class="map__frame">
@@ -86,15 +136,15 @@
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 form-box">
-                                    <input type="text" name="konu" class="input_control" required placeholder="Konu*">
+                                    <input type="text" name="konu" class="input_control" required  placeholder="Konu*">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-12 form-box">
-                                    <textarea name="form-message" id="mesaj" class="input_control" required placeholder="Mesajınız*"></textarea>
+                                    <textarea name="mesaj" id="mesaj" class="input_control" required placeholder="Mesajınız*"></textarea>
                                 </div>
                             </div>
-                            <button type="submit" class="primary__button">Mesaj Gönder</button>
+                            <button type="submit" name="gonder" class="primary__button">Mesaj Gönder</button>
                         </form>
                     </div>
                 </div>

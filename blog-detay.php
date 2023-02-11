@@ -39,10 +39,6 @@
                                 <span class="icon"><i class="ri-calendar-check-line"></i></span>
                                 <span class="value">6, July 2021</span>
                             </li>
-                            <li>
-                                <span class="icon"><i class="ri-message-2-line"></i></span>
-                                <span class="value">3 comments</span>
-                            </li>
                         </ul>
                         <!-- Post-Title -->
                         <h3 class="post__title h3_alt">We provide Healthy meals for your pet</h3>
